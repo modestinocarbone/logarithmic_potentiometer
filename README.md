@@ -22,7 +22,7 @@ Note that the maximum rotation angle isn’t always 360°, it varies by manufact
 
 Logarithmic potentiometers share the same basic structure as linear ones, but the relationship between the knob angle and resistance is different. While the electrical principle (voltage division) stays the same, the resistance varies logarithmically with the angle.\
 This is especially useful in audio applications, where our ears perceive loudness logarithmically. The image below shows how the behavior differs from a linear POT.\
-<img src="img/log_pot_plot.png" alt="Knight Tour" width="400"/>
+<img src="img/log_pot_plot.png" alt="Knight Tour" width="300"/>
 
 BUT... despite their clear advantages in audio circuits, true logarithmic potentiometers are relatively uncommon and harder to find.
 
@@ -31,7 +31,7 @@ BUT... despite their clear advantages in audio circuits, true logarithmic potent
 A creative solution to implement a log POT is to use a resistance in parallel to the output. Supposing that the sum of $R_a$ and  $R_b$ is $R$ and the resistance in parallel is multiplied with the factor 1/b.\
 <img src="img/log_diy.png" alt="Knight Tour" width="400"/>
 
-By changing the value of b, you can generate different response curves:
+By changing the value of b, you can generate different response curves:\
 <img src="img/log_plot_b.png" alt="Knight Tour" width="400"/>
 
 Fixing b=9, the figure below compares the response of:
