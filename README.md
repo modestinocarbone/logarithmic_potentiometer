@@ -2,7 +2,7 @@
 
 You probably have some potentiometers lying around, but have you ever wondered about the different types of POTs available on the market?
 Each potentiometer has its own working principle and specific applications. Instead of procrastinating, defining a simulation strategy in advance can help you better understand how potentiometers behave (especially if you're not already familiar with them).\
-To visualize how they work, take a look at the figure below:\
+To visualize how they work, take a look at the figure below:
 
 <img src="img/pot_schem.png" alt="Knight Tour" width="400"/>
 
@@ -31,7 +31,7 @@ BUT... despite their clear advantages in audio circuits, true logarithmic potent
 A creative solution to implement a log POT is to use a resistance in parallel to the output. Supposing that the sum of $R_a$ and  $R_b$ is $R$ and the resistance in parallel is multiplied with the factor 1/b.\
 <img src="img/log_diy.png" alt="Knight Tour" width="400"/>
 
-By changing the value of b, you can generate different response curves:\
+By changing the value of b, you can generate different response curves:
 <img src="img/log_plot_b.png" alt="Knight Tour" width="400"/>
 
 Fixing b=9, the figure below compares the response of:
