@@ -37,5 +37,5 @@ By changing the value of b, you can generate different response curves:
 Fixing b=9, the figure below compares the response of:
 - The ideal logarithmic potentiometer (orange dashed line)
 - A standard linear potentiometer (green line)
-- A linear POT modified with the parallel resistor (blue line)\
+- A linear POT modified with the parallel resistor (blue line)
 <img src="img/log_lin_jig.png" alt="Knight Tour" width="400"/>
