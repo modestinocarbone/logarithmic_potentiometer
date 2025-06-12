@@ -26,7 +26,7 @@ This is especially useful in audio applications, where our ears perceive loudnes
 
 BUT... despite their clear advantages in audio circuits, true logarithmic potentiometers are relatively uncommon and harder to find.
 
-### How to 'create' a Logarithmic Potentiometers
+### How to 'create' a Logarithmic Potentiometer
 
 A creative solution to implement a log POT is to use a resistance in parallel to the output. Supposing that the sum of $R_a$ and  $R_b$ is $R$ and the resistance in parallel is multiplied with the factor 1/b.\
 <img src="img/log_diy.png" alt="Knight Tour" width="300"/>
